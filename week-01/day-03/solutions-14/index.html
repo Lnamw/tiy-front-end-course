@@ -74,7 +74,76 @@
 	  		</tr>	  		
 	  	</table>
 	  </div>
-
+	  <div class="search">
+	  	<h5>Search</h5>
+	  	<form>
+	  		<input type="search" name="search" />
+	  		<input type="submit" name="submit" />
+	  	</form>
+	  </div>
+	  <div class="visit">
+	  	<h5>Book your visit</h5>
+	  	<form>
+	  		<div>
+	  			<h6>Choose your date</h6>
+	  			<input type="date" name="date" placeholder="DD/MM/YYYY" />
+	  		</div>
+	  		<div>
+	  			<h6>Number of people</h6>	  		
+	  			<input type="number" name="people" value="1" min="1" max="9"/> 
+	  		</div>	
+	  		<div>
+	  			<h6>Choose your floor</h6>	  		
+	  			<input type="number" name="floor" value="1" min="1" max="27" required/> 
+	  		</div>
+	  		<div>
+	  			<h6>Restaurant?</h6>	  		
+	  			<input type="radio" name="yesno" value="Yes" /> Yes 
+	  			<input type="radio" name="yesno" value="No" autocomplete="yes" /> No 
+	  		</div>
+	  		<div>
+	  			<h6>If yes, choose a restaurant</h6>	  		
+	  			<select name="people" multiple="multiple" size="3">  		
+		  			<option value="Aqua">Aqua Shard</option>
+	    			<option value="Oblix">Oblix</option>
+	    			<option value="Hutong">Hutong</option>
+	    			<option value="Lang">Lang</option>
+	    			<option value="Ting">Ting</option>
+	    			<option value="Gong">Gong</option>
+	    		</select> 
+	  		</div>
+	  		<div>
+	  			<h6>Number of Children</h6>	  		
+	  			<input type="number" name="children" value="0" min="0" max="5" required/> 
+	  		</div>
+	  		<div>
+	  			<h6>Phone number</h6>	  		
+	  			<input type="tel" name="tel" /> 
+	  		</div>
+	  		<div>
+	  			<h6>Email address</h6>	  		
+	  			<input type="email" name="email" required />
+	  		</div> 
+	  		<div>
+	  			<button>Book</button>
+	  		</div>
+	  	</form>
+	  </div>
+	  <div class="video">
+	  	<iframe src="https://youtu.be/_ftbUi4sPOE">
+   		<p>Your browser does not support iframes.</p>
+			</iframe>
+	   </div>
+	   <div class="map">
+	   		<iframe src="https://www.google.co.uk/maps/place/The+Shard/@51.5045033,-0.0886887,17z/data=!3m1!4b1!4m2!3m1!1s0x4876035a0a9271d3:0xbdf26ba73efb7b?hl=fr"></iframe> 
+	   </div>
+	   <div class=more-info>
+	   		<h4>More articles</h4>
+	   		<a href="http://www.prweek.com/article/1383559/view-shard-appoints-diffusion-retained-pr-agency" target="_blank">The view from the Shard</a>
+	   		<a href="http://www.eventmagazine.co.uk/event-tv-nfl-uk-transformed-shard-innovision/brands/article/1382026" target="_blank">Event at The Shard</a>
+	   		<a href="http://www.bighospitality.co.uk/People/Gareth-Bowen-joins-The-Shard-s-Shangri-La-Hotel-as-executive-chef" target="_blank">Shangri La Hotel</a>
+	   	
+	   </div>
 
   </body>
 </html>
