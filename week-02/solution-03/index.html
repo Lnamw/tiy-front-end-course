@@ -10,25 +10,29 @@
       margin: 0px;
       padding: 0px;
     }
-  	div {
+  	.child {
       width: 33.33%;
-      height: 120px;
-      background-color: rgba(68, 68, 68, 0.5);
+      
       text-align: center;
-      display: inline-block;
       float: left;
       padding: 10px 20px 10px 20px;
       border: solid 2px green;
       box-sizing: border-box;
         }
   
+    .container {
+      float: left;
+      background-color: rgba(68, 68, 68, 0.5);
+    }
 
 
   </style>
 </head>
 <body>
-	<div>This is my first column</div>
-  <div>This is my second column with more text... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper ex sed erat dignissim, eu dapibus turpis aliquet. Aenean pretium eleifend scelerisque.</div>
-  <div>This is my third column</div>
+	<div class="container">
+		<div class="child">This is my first column</div>
+	  <div class="child">This is my second column with more text... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper ex sed erat dignissim, eu dapibus turpis aliquet. Aenean pretium eleifend scelerisque.</div>
+	  <div class="child">This is my third column</div>
+	 </div> 
 </body>
 </html>
