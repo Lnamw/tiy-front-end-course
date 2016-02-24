@@ -1,0 +1,29 @@
+1. Give an example of JavaScript literal value.
+
+42 is a literal value
+
+2. Write an expression that declares a variable and assigns 200 to it.
+
+var b = 200;
+
+3. Create an empty array.
+
+array = [];
+
+4. Create an empty object.
+
+function();
+
+
+
+5. Create an object with 3 properties:
+	'a' with the value of 'Welcome'
+	'b' with the value of 1
+	'c' with the value of an empty object.
+
+
+	var array = ["Welcome", 1, ""];
+
+6. Create a function that returns an empty object.
+
+7. Create a function that takes two parameters, puts them into a new array and returns that array.
