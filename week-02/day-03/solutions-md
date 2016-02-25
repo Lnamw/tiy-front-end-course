@@ -1,6 +1,8 @@
 1. Give an example of JavaScript literal value.
 
 42 is a literal value
+'string' is a value
+a = []
 
 2. Write an expression that declares a variable and assigns 200 to it.
 
@@ -8,11 +10,11 @@ var b = 200;
 
 3. Create an empty array.
 
-array = [];
+var a = [];
 
 4. Create an empty object.
 
-function();
+var b = {}
 
 
 
@@ -21,9 +23,73 @@ function();
 	'b' with the value of 1
 	'c' with the value of an empty object.
 
+	var b = {
+		a: 'Welcome',
+		b: 1
+		c: {}
+	}
 
-	var array = ["Welcome", 1, ""];
+		b.c to call the empty object of see
+
 
 6. Create a function that returns an empty object.
 
+function getEmptyObject() {
+	var emptyObject = {};
+	return emptyObject;
+}
+
+or 
+
+function getEmptyObject() {
+	return {};
+}
+
+
+
 7. Create a function that takes two parameters, puts them into a new array and returns that array.
+
+function getNewArray (parameter1, parameter2) {
+	var newArray = [];
+	newArra[0] = parameter1;
+	newArray[1] = parameter2;
+	return newArray;
+}
+
+or
+
+function getNewArray (parameter1, parameter2) {
+	var newArray = [parameter1, parameter2];
+	return newArray;
+}
+
+or 
+
+function getNewArray (parameter1, parameter2) {
+	return [parameter1, parameter2];
+}
+
+test solution : 
+console.log(getNewArray(10, 'Hello'));
+
+
+8:
+
+ 
+
+function getNewObject() {
+  var newObject = {
+    message: 'Welcome, John',
+    name: 'John',
+    email: 'john@gmail.com'
+  };
+  return newObject;
+}
+
+console.log(getNewObject());
+
+
+
+
+
+
