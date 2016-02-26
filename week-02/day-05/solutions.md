@@ -8,7 +8,7 @@ Example:
 mergeArrays([1, 2, 3], [4, 5, 6]); // returns [1, 2, 3, 4, 5, 6]
 */
 
-function mergeArrays(list1, list2) {
+```function mergeArrays(list1, list2) {
   var listsMerged = [];
   
   for (var iterator1 = 0; iterator1 <= list1.length -1; iterator1 = iterator1 +1){
@@ -21,7 +21,7 @@ function mergeArrays(list1, list2) {
   return listsMerged;
 }
 
-console.log(mergeArrays([1, 2, 3], [4, 5, 6]));
+console.log(mergeArrays([1, 2, 3], [4, 5, 6]));``
 
 
 ##Problem 0.2
