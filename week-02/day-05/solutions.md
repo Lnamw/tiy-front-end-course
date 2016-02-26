@@ -134,7 +134,7 @@ function getMessageLength(message) {
 	(function getMessageLength(message) {
   return message.length;
 	})();
-``
+```
 
 ##Problem 5
 ##Problem 6
