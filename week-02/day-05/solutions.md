@@ -100,8 +100,51 @@ function getMessageLength(message) {
 
 ##Problem 2
 
+Fix `ReferenceError: askForAddress` error:
 
+```js
+deliverProduct();
 
+function deliverProduct() {
+  var address = askForAddress();
+}
+
+function takeOrder() {
+  function askForAddress() {
+    var address = {
+      houseNumber: '20',
+      street: 'Bond Street',
+      city: 'London',
+      country: 'United Kingdom'
+    };
+
+    return address;
+  }
+}
+```
+
+```js
+//Fix ReferenceError: askForAddress error:
+
+deliverProduct();
+
+function deliverProduct() {
+  var address = askForAddress();
+}
+
+  function askForAddress() {
+    var address = {
+      houseNumber: '20',
+      street: 'Bond Street',
+      city: 'London',
+      country: 'United Kingdom'
+    };
+
+    return address;
+  }
+
+console.log(askForAddress());
+```
 
 
 ##Problem 3
@@ -134,7 +177,7 @@ function getMessageLength(message) {
 	(function getMessageLength(message) {
   return message.length;
 	})();
-```
+``
 
 ##Problem 5
 ##Problem 6
