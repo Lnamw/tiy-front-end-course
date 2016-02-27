@@ -180,8 +180,63 @@ function getMessageLength(message) {
 ```
 
 ##Problem 5
+
+
 ##Problem 6
-##Problem 7
+
+/*
+Write a function that: 
+1. Takes an array as a parameter 
+2. Iterates over each value in that array 
+3. Checks if the value's type is number 
+4. If it is - calculate the sum of all numbers
+*/
+
+```js
+function calculateNumbers(list) {
+  var sumNumbers = 0;
+  
+  for (var iterator= 0; iterator <= list.length -1; iterator = iterator +1) {
+    if(typeof(list[iterator]) == 'number'){
+      sumNumbers = sumNumbers + list[iterator];
+    }
+  }
+  return sumNumbers;
+    
+}
+
+console.log(calculateNumbers([1, 2, 'Hello', 10, 'Elena', 7]));
+```
+
+
+##Problem 7  - to finish...
+
+/*
+Write an algorithm in JavaScript that sorts and returns an array of 3 numbers, e.g.:
+
+
+To test:
+
+sortArray([2, 12, 7]); // returns: `[2, 7, 12]`
+sortArray([1, 34, -27]); // returns: `[-27, 1, 34]`
+*/
+
+```js
+function sortArray(unsortedArray) {
+  var sortedArrey = [];
+  
+  for (var iterator= 0; iterator <= unsortedArray.length -1; iterator = iterator +1) {
+    if(unsortedArray[iterator] > unsortedArray[iterator + 1]){
+      sortedArrey = sortedArrey.length + unsortedArray[iterator + 1]  ;}
+    else {
+        sortedArrey = sortedArrey.length + unsortedArray[iterator];
+      }
+  }  
+  
+}
+
+console.log(sortArray([2, 7, 12]));
+```
 
 
 
